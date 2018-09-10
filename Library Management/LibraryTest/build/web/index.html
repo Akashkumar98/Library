@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1 align="center" >Hello User!</h1>
+        <div align="left">
+        <h2>Sign Up details:</h2>    
+        <form action="regup" method="post" name="signup">            
+        <table width="25%" border="0" cellspacing="5" cellpadding="5" >
+
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="uname" value="" size="30" placeholder="Your Name" required /></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <td><input type="password" name="upass" value="" size="30" placeholder="Your Password" required/></td>
+                </tr>
+                <tr>
+                    <td>Age:</td>
+                    <td> <input type="text" name="uage" value="" size="25" placeholder="Your Age" /> </td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="text" name="umail" value="" size="30" placeholder="Your Email"  /></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="submit" value="Sign-Up" name="submit" /></td>
+                </tr>
+            
+        </table>
+        </form>
+        </div>
+        <br>
+        
+        <div>
+        <h2>Sign In details:</h2>    
+        <form action="login" method="post" name="signin">
+            <table width="25%" border="0" cellspacing="5" cellpadding="5">
+                <tbody>
+                    <tr>
+                        <td>Name:</td>
+                        <td><input type="text" name="uname" value="" size="30" placeholder="Your Name" required /></td>
+                    </tr>
+                    <tr>
+                        <td>Password:</td>
+                        <td><input type="password" name="upass" value="" size="30" placeholder="Your Password" required  /></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><input type="submit" value="Sign-In" /></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </form>
+        </div>
+   
+        
+    </body>
+</html>
