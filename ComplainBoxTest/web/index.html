@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>complaint box</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="C:\Users\User\Desktop\easwari\css\style.css">  
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+
+
+<style>
+    body
+{
+ 
+ background-color:black;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 70%;
+}
+ 
+img
+{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ align: right;
+ max-width: 100%;
+ height: 500px;
+ 
+}
+
+
+h1
+{
+ position: absolute;
+ font-size: 28px;
+ font-family: Arial,Helvetica, sans-serif;
+ font-weight: bold;
+ color: white;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: white;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: black;
+    padding: 20px;
+    width:40%;
+    height:50%;
+    float: left;
+    
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+.image
+{
+ float: right;
+}
+</style>
+
+
+</head>
+<body>
+
+  <i class="material-icons" style="font-size:38px;color:gray">menu</i>
+  <i class="material-icons" style="font-size:38px;color:gray">home</i> 
+
+ <h1> Complaint box </h1>
+<br> 
+<br><br><br><br>
+<div class="content">
+<div class="container">
+  <form  action="page1" method="post">
+      
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">First Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="fname" placeholder="Your name..">
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Last Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lname" placeholder="Your last name..">
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Complaint</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+      
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+      
+  </form>
+</div>
+
+<div class="image">
+ <img src="src/iron.jpeg" align="right">
+</div>
+
+</div>
+
+
+
+</body>
+</html>
+
